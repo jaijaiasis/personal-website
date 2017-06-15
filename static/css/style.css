@@ -1,0 +1,159 @@
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+
+p {
+  font-size: 16px;
+  }
+
+.margin {
+  margin-bottom: 45px;
+}
+
+img {
+  opacity: 1.0;
+}
+
+h4 {
+  color: white;
+}
+
+table {
+  margin: auto;
+  background-color: rgba(12, 15, 47, 0.36);
+}
+
+td, th {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: start;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+.bg-1 { 
+  background-color: #022f26; /* Dark Green */
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.bg-2 {
+  background-color: #06182d; /* Dark Blue*/
+  color: #ffffff;
+}
+
+.bg-3 { 
+  background-color: #004359; /* Blue */
+  color: #ffffff;
+}
+
+.bg-4 { 
+  background-color: black;
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+  color: #ffbdbd !important;
+}
+
+.navbar-default .navbar-brand {
+    color: #c5c0c0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #d6cfcf;
+}
+
+.parallax-1 {
+  background-image: url("../images/hanuman-parallax.png");
+  min-height: 620px;
+}
+
+.parallax-2 {
+  background-image: url("../images/fist.jpg");
+  min-height: 500px;
+}
+
+.parallax-3 {
+  background-image: url("../images/popcorn.jpg");
+  min-height: 500px;
+}
+
+.personal-parallax {
+  background-image: url("../images/panda.jpg");
+  min-height: 630px;
+}
+
+.blog-parallax {
+  background-image: url("../images/wizard.jpg");
+  min-height: 650px;
+}
+
+.education-parallax {
+  background-image: url("../images/books.jpg");
+  min-height: 600px;
+}
+
+.interest-parallax {
+  background-image: url("../images/yamada.jpg");
+  min-height: 630px;
+}
+
+
+.parallax-1, .parallax-2, .parallax-3, .personal-parallax, .blog-parallax,
+.education-parallax, .interest-parallax {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+#nav {
+  background-color: #474e5d; /* Dark Blue */
+}
+
+#who {
+  padding-top: 100px;
+}

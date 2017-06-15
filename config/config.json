@@ -1,0 +1,6 @@
+{
+  "development": {
+    "url": "postgres://jaijaiasis:admin@localhost:5432/webeng-jaijaiasis",
+    "dialect": "pg"
+  }
+}
